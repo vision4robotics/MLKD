@@ -6,7 +6,7 @@
 
 This is the official code for the paper "Mutual-Learning Knowledge Distillation for Nighttime UAV Tracking".
 
-<!--img src="./MLKD.png"-->
+<!--<img src="./MLKD.png">-->
 
 # Abstract
 
