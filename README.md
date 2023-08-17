@@ -50,7 +50,7 @@ Download our pretrained model [MLKD-Track](https://pan.baidu.com/s/1zJUQdVNNwq1r
 Take the test of MLKD-Track as an example:
 
 ```
-CUDA_VISIBLE_DEVICES="3" python tools/test.py --snapshot='/home/user/V4R/LYF/pysot-master2/snapshot/mlkd.pth'
+CUDA_VISIBLE_DEVICES="0" python tools/test.py --snapshot='/home/user/V4R/LYF/pysot-master2/snapshot/mlkd.pth'
 
 ```
 
