@@ -42,7 +42,7 @@ Run train_kd.py.
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 ./tools/train_kd.py --cfg experiments/siamrpn_alex_dwxcorr_16gpu/config.yaml 
 ```
 
-### Train the mutul-learning student model
+### Train the mutual-learning student model
 Run train_ml.py.
 
 ```
