@@ -35,12 +35,19 @@ pytorch 1.11.0
 
 Before training, you need to prepare the training set of the [NAT2021-test](https://vision4robotics.github.io/NAT2021/) and [DarkTrack2021](https://darktrack2021.netlify.app/) dataset. 
 Also, the teacher model is based on the SOTA enhancer [DarkLighter](https://github.com/vision4robotics/DarkLighter) and the advanced tracker SiamRPN++(), the teacher model parameters can be gotten from [HERE](https://pan.baidu.com/s/1eSscZKvCQ7mcF5kZhjD0EQ?pwd=team)(code:team).
+### Train the single-student model
 Run train_kd.py.
 
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=3 ./tools/train_kd.py --cfg experiments/siamrpn_alex_dwxcorr_16gpu/config.yaml 
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 ./tools/train_kd.py --cfg experiments/siamrpn_alex_dwxcorr_16gpu/config.yaml 
 ```
 
+### Train the mutul-learning student model
+Run train_ml.py.
+
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 ./tools/train_ml.py --cfg experiments/siamrpn_alex_dwxcorr_16gpu/config.yaml 
+```
 
 ## Test
 
