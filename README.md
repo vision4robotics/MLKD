@@ -13,7 +13,7 @@ This is the official code for the paper "Mutual-Learning Knowledge Distillation 
 Nighttime unmanned aerial vehicle (UAV) tracking has been facilitated with indispensable plug-and-play low-light enhancers.
 However, the introduction of low-light enhancers increases the extra computational burden for the UAV, significantly hindering the development of real-time UAV applications.
 Meanwhile, these state-of-the-art (SOTA) enhancers lack tight coupling with the advanced daytime UAV tracking approach.
-To solve the above issues, this work proposes a novel mutual-learning knowledge distillation framework for nighttime UAV tracking, \textit{i.e.}, MLKD.
+To solve the above issues, this work proposes a novel mutual-learning knowledge distillation framework for nighttime UAV tracking, i.e., MLKD.
 This framework is constructed to learn a compact and fast nighttime tracker via knowledge transferring from the teacher and knowledge sharing among various students.
 Specifically, an advanced teacher based on a SOTA enhancer and a superior tracking backbone is adopted for guiding the student based only on the tight coupling-aware tracking backbone to directly extract nighttime object features.
 To address the biased learning of a single student, diverse lightweight students with different distillation methods are constructed to focus on various aspects of the teacher's knowledge.
