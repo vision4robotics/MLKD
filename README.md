@@ -32,8 +32,7 @@ pytorch 1.11.0
 
 ## Demo
 ### Demo Video
-[![MLKD]()](https://www.youtube.com/watch?v=hzMocxhsKyY "MLKD")
-
+[![MLKD](https://res.cloudinary.com/marcomontalbano/image/upload/v1693198627/video_to_markdown/images/youtube--hzMocxhsKyY-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=hzMocxhsKyY "MLKD")
 
 ## Train
 
