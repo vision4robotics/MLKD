@@ -1,6 +1,6 @@
 # [MLKD]
 
-# Mutual-Learning Knowledge Distillation for Nighttime UAV Tracking.
+# Mutual-Learning Knowledge Distillation for Nighttime UAV Tracking
 
 ### Yufeng Liu, Haobo Zuo, Yao Liangliang, Kunhan Lu, Guangze Zheng, and Changhong Fu
 
@@ -29,6 +29,10 @@ The practicality of the MLKD-Track is verified in real-world tests with differen
 python 3.8.3
 pytorch 1.11.0
 ```
+
+## Demo
+### Demo Video
+[![MLKD]()](https://www.youtube.com/watch?v=hzMocxhsKyY "MLKD")
 
 
 ## Train
