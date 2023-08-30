@@ -2,7 +2,7 @@
 
 # Mutual-Learning Knowledge Distillation for Nighttime UAV Tracking
 
-### Yufeng Liu, Haobo Zuo, Yao Liangliang, Kunhan Lu, Guangze Zheng, and Changhong Fu
+### Yufeng Liu, Haobo Zuo, Liangliang Yao, Kunhan Lu, Guangze Zheng, and Changhong Fu
 
 This is the official code for the paper "Mutual-Learning Knowledge Distillation for Nighttime UAV Tracking".
 
