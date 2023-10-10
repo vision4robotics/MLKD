@@ -37,7 +37,7 @@ pytorch 1.11.0
 ## Train
 
 Before training, you need to prepare the training set of the [NAT2021-test](https://vision4robotics.github.io/NAT2021/) and [DarkTrack2021](https://darktrack2021.netlify.app/) dataset. 
-Also, the teacher model is based on the SOTA enhancer [DarkLighter](https://github.com/vision4robotics/DarkLighter) and the advanced tracker SiamRPN++(), the teacher model parameters can be gotten from [HERE](https://pan.baidu.com/s/1eSscZKvCQ7mcF5kZhjD0EQ?pwd=team)(code:team).
+Also, the teacher model is based on the SOTA enhancer [DarkLighter](https://github.com/vision4robotics/DarkLighter) and the advanced tracker SiamRPN++(), the teacher model parameters can be gotten from [HERE](https://pan.baidu.com/s/10yEFjyitFMOMHaiHo8j9-Q?pwd=team)(code:team).
 ### Train the single-student model
 Run train_kd.py.
 
